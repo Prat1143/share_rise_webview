@@ -84,7 +84,7 @@ export class TVChartContainer extends React.PureComponent {
 		return (	
 			<>
 				<header className={styles.VersionHeader}>
-					<h1>TradingView Charting Library and Next.js Integration Example {version()}</h1>
+					{/* <h1>TradingView Charting Library and Next.js Integration Example {version()}</h1> */}
 				</header>
 				<div ref={this.ref} className={styles.TVChartContainer} />
 			</>
